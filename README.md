@@ -1,6 +1,6 @@
-# TruLaL — True Last Logon for Active Directory
+# TrullAD — True Last Logon for Active Directory
 
-**TruLaL** provides a precise, defensible “true last logon” timestamp for Active Directory accounts by aggregating the non‑replicated `lastLogon` attribute from **every** domain controller (DC). It also surfaces the replicated `LastLogonDate` (the friendly view of `lastLogonTimestamp`) to highlight expected replication lag.
+**TrullAD** provides a precise, defensible “true last logon” timestamp for Active Directory accounts by aggregating the non‑replicated `lastLogon` attribute from **every** domain controller (DC). It also surfaces the replicated `LastLogonDate` (the friendly view of `lastLogonTimestamp`) to highlight expected replication lag.
 
 > **Why this matters**
 >
@@ -35,7 +35,7 @@
 Clone the repository:
 
 ```powershell
-git clone https://github.com/nachszon/TruLaL.git
+git clone https://github.com/nachszon/TruLAD.git
 cd TruLaL
 ```
 
