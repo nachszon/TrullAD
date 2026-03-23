@@ -7,7 +7,7 @@
 > - `lastLogon` is **accurate** but **not replicated** — the true value is the *maximum across all DCs*.
 > - `lastLogonTimestamp` / `LastLogonDate` is **replicated**, but intentionally **delayed** by ~9–14 days by design.
 >
-> TruLaL automates the per‑DC lookup and provides a trustworthy, audit‑ready result.
+> TrullAD automates the per‑DC lookup and provides a trustworthy, audit‑ready result.
 
 ---
 
