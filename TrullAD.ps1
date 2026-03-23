@@ -18,7 +18,7 @@
     Single SAM account name to query (e.g., 'pussinboots').
 
 .EXAMPLE
-    powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\TruLaL.ps1 -User pussinboots
+    powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\TrullAD.ps1 -User pussinboots
     Shows a per‑DC LastLogon table and prints:
     "True last logon for pussinboots: <timestamp>"
 
@@ -32,7 +32,7 @@
 
 .NOTES
     Author      : Krzysztof Nachszon Lipa‑Izdebski
-    Script Name : TruLaL (True Last Logon)
+    Script Name : TrullAD (True Last Logon)
     Version     : 1.0.0
     Released    : 2026‑03‑20
     Licence     : MIT (recommend placing a LICENSE file in the repository)
